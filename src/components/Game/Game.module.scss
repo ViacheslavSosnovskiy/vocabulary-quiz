@@ -1,0 +1,39 @@
+@import '../../styles/index.scss';
+
+.progress_bar {
+    height: 10px;
+    border-radius: 30px;
+    background-color: darken($primary-color, 8%);
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 30px;
+    width: 80%;
+    background: $progress-primary-color;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, $progress-primary-color 0%, $progress-secondary-color 100%);
+}
+
+.title {
+    margin-bottom: 20px;
+
+    & span {
+        color: $accent-color;
+    }
+}
+
+.item {
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+    &:hover,
+    &:focus {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+    }
+  }

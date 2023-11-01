@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.result {
+    text-align: center;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: darken($accent-color, 3%);
+    color: $primary-color;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.image {
+    width: 150px;
+}
